@@ -1,0 +1,20 @@
+.search {
+    justify-self: center;
+    border: solid;
+    border-color: white;
+    padding: 0rem 1rem;
+    font-size: 1.8rem;
+    border-radius: 0.7rem;
+    /* width: 40rem; */
+    transition: all 0.3s;
+
+    background-color: var(--color-primary-light);
+}
+
+.search::placeholder {}
+
+.search:focus {
+    outline: none;
+    box-shadow: 0 2.4rem 2.4rem rgba(0, 0, 0, 0.1);
+    transform: tr anslateY(-2px);
+}
